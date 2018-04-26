@@ -1,0 +1,37 @@
+
+.Message{
+    position: fixed;
+    bottom: 0;
+    color: white;
+    opacity: 0.93;
+    transform: translateY(80px);
+    background: rgba(0,16,33,0.60);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 16px 20px 16px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 100ms;
+    text-align: left;
+}
+
+.Message_visible{
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.Message-Close{
+    float: right;
+    cursor: pointer;
+}
+
+.Message-Close:hover{
+    color: gold;
+}
+
+.Message-Close:before {
+    content: '+';
+    display: inline-block;
+    transform: rotate(45deg);
+    font-size: 20px;
+}
