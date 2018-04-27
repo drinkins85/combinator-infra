@@ -12,6 +12,6 @@ deploy:
   api_key:
     secure: o4ywpToFlhT5h4LXAJ3hr7M/vNVBZF7BhSFCSilfCHdbritAy4LOYrn11b9i8sd1PHrdW+Z6YEcT8s+2ax+U/aN8r/TlIzhbQi9w1sX+ZfRttNE5Gw9g79BI51Kiwq2fTj73JYLowsOrEBWb7DIWJzV8rgcShE/6OC4nqSOSi/rfSP0yQZHztr9xByVcc8sD/UV3tdcbJ6+RtdXHt8RNqaQ8hFZBFsfIeknEoMYD+xEASUEfFg537pHMUL238vjMHVXQg9qvPRQnPMCBXcly2kpHQ4wiQFIdTmR5ozc9ZP56JY8+E786JwP3ibM+alYePsG0Oojae6mWxnr9W/iIwWnZvFdqVLMXdx/yddY4eGoVlP/yoZEr8TocYbP/M36UrIFpP3fAiRIJGkyByor8/VBPJvPrQOiPunoxTToABl6JtAgXh1SUux+yTvgdjI6i2vOplkeny/VSBh59LfAqZViy+jOwjy+BwppmT8xlgKad65LIKN+ImDBaByo5JlpSNDThSSj+iCP6j0b0Ixs4Mt7Wi7iP+UPAGa2SAyM6PHyMtoPak2qceFYZ9Kr8H6jQ0s5hkVtIwqZ0PXeIA69oDnJOys8vFDbPFPksSWYA2rL9TUShXaInz+e7kxEf3ZolvFOAuajh+TVXZHGwkqxFUiJHo3L4Hi2dkBYv3OQBQrw=
   app:
-    master: shri-hw-node-git
+    master: combinator-infra
   on:
     repo: drinkins85/combinator-infra
