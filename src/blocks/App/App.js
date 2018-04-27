@@ -21,9 +21,7 @@ class App extends React.Component {
                 <Button
                     text="Click me"
                     className="Button_type_round"
-                    handleClick={function () {
-                        this.props.messagesActions.addMessage('Hello, World');
-                    }}
+                    handleClick={() => this.props.messagesActions.addMessage('Hello, World')}
                     />
                 <Message
                     messages={this.props.messages}
