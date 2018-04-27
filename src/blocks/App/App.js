@@ -1,7 +1,7 @@
 import React from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import * as messagesActions from '../../actions/messages';
 import Button from '../Button/Button';
@@ -41,18 +41,16 @@ class App extends React.Component {
 
     render() {
         return (
-            <Router>
-                <Switch>
-                    <Route
-                        exact path="/"
-                        render={this.renderIndex}
-                        />
-                    <Route
-                        path="*"
-                        render={this.render404}
-                        />
-                </Switch>
-            </Router>
+            <Switch>
+                <Route
+                    exact path="/"
+                    render={this.renderIndex}
+                    />
+                <Route
+                    path="*"
+                    render={this.render404}
+                    />
+            </Switch>
         );
     }
 }
