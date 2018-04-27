@@ -8,5 +8,11 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 const store = configureStore();
 
-ReactDOM.hydrate(<Provider store={store}><Router><App /></Router></Provider>, document.getElementById('root'));
+ReactDOM.hydrate(
+    <Provider store={store}>
+        <Router>
+            <App />
+        </Router>
+    </Provider>,
+    document.getElementById('root'));
 registerServiceWorker();
