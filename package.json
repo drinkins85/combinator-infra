@@ -24,8 +24,9 @@
     "eject": "react-scripts eject",
     "lint:js": "eslint src/ --ext .js --ext .jsx",
     "lint:css": "stylelint src/**/*.css",
-    "serv": "set NODE_ENV=production&& node server/index.js",
+    "serv": "NODE_ENV=production node server/index.js",
     "CI": "npm run lint:js && npm run lint:css",
+    "deploy": "heroku container:push web -a combinator-infra",
     "start": "react-scripts start"
   },
   "devDependencies": {

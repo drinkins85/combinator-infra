@@ -3,7 +3,7 @@ const path = require('path');
 import express from 'express';
 import serverRenderer from './middleware/renderer';
 
-const PORT = 3005;
+const PORT = process.env.PORT || 3005;
 const app = express();
 const router = express.Router();
 
