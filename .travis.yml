@@ -4,14 +4,14 @@ node_js:
 os:
 - linux
 notifications:
-  email: false
+    email: false
 script:
 - npm run CI
 deploy:
-  provider: heroku
-  api_key:
-    secure: DkrZSxC3c5FiDdsBnciMrES+sLOHaC8rT175CagKriHjnYBKWeN0J12+itI+l9vLikV29n9jTxuZgxZwfqCDnqD3xMWOceq4aEKA+5HEBp0De8QsPO876iTN7E/ULz46FDfORqG/2LBUTL4/HgvkMOIH0t/9EY/SsztnHbj3m9A3yM1wcvCpj+eM1aOpqjw61TsSaFavj9cBQyzX7YtR6LEtUB5dZ9hjVTYrEUG6VXfjMdSgkh6IPTuPcJO7zfpTL+oUx1FWpjWpwgIs211FdKb6sBtCXMhI3BmOpsS3GeFMYhbzw+TASA9TpboATIGCoh7SUCwN70e3yeCbLzhO6yzISIOft9j7AxcUgvcnPz9NhWMGIjuwcr/XAMBxCfxzFA8HKkxYn42By9z1+3b6SuBSDndwHkGaSp06JNviiTEJASUJnOkSeZsZVPkNUsfB4BP2wjGmxW4d4toVJu93tSiTOf26qcJz0h7xfAu7K7VFpcnkdEvZjT4ccvwjhhc68nUVqX/ip5HLopAmenN4kkbotI+IqdY95P/PuNY34cGsYypLF4rP8zbOEjOIXYeRFPY7qXnowqgJYcVoE700O4BiJKHZ2hkC6lpDYfhqT5s/DbdZ+4avVy+W4b3sQI362CwcuexaOQg/ID/z9/SiIR4nyKwRxEdzyxj8UV1J0v0=
-  app:
-    master: combinator-infra
-  on:
-    repo: drinkins85/combinator-infra
+    provider: heroku
+    api_key:
+        secure: DkrZSxC3c5FiDdsBnciMrES+sLOHaC8rT175CagKriHjnYBKWeN0J12+itI+l9vLikV29n9jTxuZgxZwfqCDnqD3xMWOceq4aEKA+5HEBp0De8QsPO876iTN7E/ULz46FDfORqG/2LBUTL4/HgvkMOIH0t/9EY/SsztnHbj3m9A3yM1wcvCpj+eM1aOpqjw61TsSaFavj9cBQyzX7YtR6LEtUB5dZ9hjVTYrEUG6VXfjMdSgkh6IPTuPcJO7zfpTL+oUx1FWpjWpwgIs211FdKb6sBtCXMhI3BmOpsS3GeFMYhbzw+TASA9TpboATIGCoh7SUCwN70e3yeCbLzhO6yzISIOft9j7AxcUgvcnPz9NhWMGIjuwcr/XAMBxCfxzFA8HKkxYn42By9z1+3b6SuBSDndwHkGaSp06JNviiTEJASUJnOkSeZsZVPkNUsfB4BP2wjGmxW4d4toVJu93tSiTOf26qcJz0h7xfAu7K7VFpcnkdEvZjT4ccvwjhhc68nUVqX/ip5HLopAmenN4kkbotI+IqdY95P/PuNY34cGsYypLF4rP8zbOEjOIXYeRFPY7qXnowqgJYcVoE700O4BiJKHZ2hkC6lpDYfhqT5s/DbdZ+4avVy+W4b3sQI362CwcuexaOQg/ID/z9/SiIR4nyKwRxEdzyxj8UV1J0v0=
+    app:
+        master: combinator-infra
+    on:
+        repo: drinkins85/combinator-infra
