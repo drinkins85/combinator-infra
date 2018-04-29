@@ -10,7 +10,7 @@ module.exports = {
         'no-extra-semicolons': true,
         'no-invalid-double-slash-comments': true,
         'no-unknown-animations': true,
-        'indentation': [4, {indentInsideParens: 'twice'}],
+        'indentation': [4, { indentInsideParens: 'twice' }],
         'max-empty-lines': 1,
         'max-line-length': 90,
         'no-eol-whitespace': true,

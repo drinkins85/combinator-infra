@@ -1,3 +1,5 @@
+@import '../variables.scss';
+
 .message {
     position: fixed;
     bottom: 0;
@@ -17,30 +19,30 @@
 
     transition: 100ms;
     transform: translateY(80px);
-}
 
-.message--visible {
-    visibility: visible;
+    &--visible {
+        visibility: visible;
 
-    transform: translateY(0);
+        transform: translateY(0);
+    }
 }
 
 .message__close {
     float: right;
 
     cursor: pointer;
-}
 
-.message__close:hover {
-    color: #ffd700;
-}
+    &:hover {
+        color: $gold;
+    }
 
-.message__close:before {
-    display: inline-block;
+    &:before {
+        display: inline-block;
 
-    content: '+';
+        content: '+';
 
-    font-size: 20px;
+        font-size: 20px;
 
-    transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
 }
