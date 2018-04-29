@@ -20,7 +20,7 @@ class App extends React.Component {
                 <h1>Hello, World</h1>
                 <Button
                     text="Click me"
-                    className="Button_type_round"
+                    className="button--type_round"
                     handleClick={() => this.props.messagesActions.addMessage('Hello, World')}
                     />
                 <Message

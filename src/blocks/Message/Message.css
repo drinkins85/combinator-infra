@@ -1,37 +1,46 @@
-
-.Message{
+.message {
     position: fixed;
     bottom: 0;
-    color: white;
-    opacity: 0.93;
-    transform: translateY(80px);
-    background: rgba(0,16,33,0.60);
-    font-size: 15px;
-    font-weight: bold;
-    padding: 16px 20px 16px 20px;
-    width: 100%;
+
     box-sizing: border-box;
-    transition: 100ms;
+    width: 100%;
+    padding: 16px 20px;
+
     text-align: left;
+
+    font-size: 15px;
+    font-weight: 700;
+
+    opacity: .93;
+    color: #fff;
+    background: rgba(0, 16, 33, .6);
+
+    transition: 100ms;
+    transform: translateY(80px);
 }
 
-.Message_visible{
+.message--visible {
     visibility: visible;
+
     transform: translateY(0);
 }
 
-.Message-Close{
+.message__close {
     float: right;
+
     cursor: pointer;
 }
 
-.Message-Close:hover{
-    color: gold;
+.message__close:hover {
+    color: #ffd700;
 }
 
-.Message-Close:before {
-    content: '+';
+.message__close:before {
     display: inline-block;
-    transform: rotate(45deg);
+
+    content: '+';
+
     font-size: 20px;
+
+    transform: rotate(45deg);
 }

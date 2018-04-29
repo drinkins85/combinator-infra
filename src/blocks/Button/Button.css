@@ -1,16 +1,19 @@
-.Button {
+.button {
     display: inline-block;
+
     padding: 15px 20px;
-    background-color: transparent;
-    border: none;
+
     cursor: pointer;
+
+    border: none;
+    background-color: transparent;
 }
 
-.Button_type_round {
+.button--type_round {
     border: #c2c0c7 1px solid;
     border-radius: 25px;
 }
 
-.Button:hover {
-    background-color: gold;
+.button:hover {
+    background-color: #ffd700;
 }
