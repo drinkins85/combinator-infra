@@ -1,0 +1,48 @@
+@import '../variables.scss';
+
+.message {
+    position: fixed;
+    bottom: 0;
+
+    box-sizing: border-box;
+    width: 100%;
+    padding: 16px 20px;
+
+    text-align: left;
+
+    font-size: 15px;
+    font-weight: 700;
+
+    opacity: .93;
+    color: #fff;
+    background: rgba(0, 16, 33, .6);
+
+    transition: 100ms;
+    transform: translateY(80px);
+
+    &--visible {
+        visibility: visible;
+
+        transform: translateY(0);
+    }
+}
+
+.message__close {
+    float: right;
+
+    cursor: pointer;
+
+    &:hover {
+        color: $gold;
+    }
+
+    &:before {
+        display: inline-block;
+
+        content: '+';
+
+        font-size: 20px;
+
+        transform: rotate(45deg);
+    }
+}

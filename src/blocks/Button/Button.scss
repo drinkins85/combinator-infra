@@ -1,0 +1,21 @@
+@import '../variables.scss';
+
+.button {
+    display: inline-block;
+
+    padding: 15px 20px;
+
+    cursor: pointer;
+
+    border: none;
+    background-color: transparent;
+
+    &:hover {
+        background-color: $gold;
+    }
+
+    &--type_round {
+        border: #c2c0c7 1px solid;
+        border-radius: 25px;
+    }
+}

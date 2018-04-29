@@ -8,8 +8,8 @@ class Message extends React.Component {
         const { messages } = this.props;
 
         return (
-            <div className={`Message ${messages.length > 0 ? 'Message_visible' : ''}`} >
-                <div className="Message-Close" onClick={this.props.onClear} />
+            <div className={`message ${messages.length > 0 ? 'message--visible' : ''}`} >
+                <div className="message__close" onClick={this.props.onClear} />
                 {
                     messages.map(message => {
                         return (
